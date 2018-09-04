@@ -1,0 +1,33 @@
+{
+    "name": "FriendFinder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+      "body-parser": "^1.15.2",
+      "express": "^4.14.0",
+      "morgan": "^1.7.0"
+    },
+    "engines": {
+      "node": "5.3.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jcontratto/FriendFinder.git"
+    },
+    "keywords": [
+      "express",
+      "node"
+    ],
+    "author": "John Contratto",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jcontratto/FriendFinder/issues"
+    },
+    "homepage": "https://github.com/jcontratto/FriendFinder#readme"
+  }
