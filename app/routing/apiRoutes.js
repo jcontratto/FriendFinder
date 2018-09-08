@@ -35,8 +35,8 @@ module.exports = function(app){
     }
 
     //return bestMatch data
-    var bff = friendList[bestMatch];
-    res.json(bff);
+    var bestFriend = friendList[bestMatch];
+    res.json(bestFriend);
 
     //pushes new submission into the friendsList array
     friendList.push(req.body);
