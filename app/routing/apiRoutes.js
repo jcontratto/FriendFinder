@@ -10,35 +10,35 @@ module.exports = function(app){
 
   app.post("/api/friends", function(req,res){
     //grabs the new friend's scores to compare with friends in friendList array
-    var newFriendScores = req.body.scores;
-    var scoresArray = [];
+    var newScores = req.body.scores;
+    var scoreArray = [];
     var friendCount = 0;
-    var bestMatch = 0;
+    var friendMatch = 0;
 
-    //runs through all current friends in list
+    //Runs current friends in list
     for(var i=0; i<friendList.length; i++){
-      var scoresDiff = 0;
-      //run through scores to compare friends
-      for(var j=0; j<newFriendScores.length; j++){
-        scoresDiff += (Math.abs(parseInt(friendList[i].scores[j]) - parseInt(newFriendScores[j])));
+      var diffscore = 0;
+    
+      for(var j=0; j<newScores.length; j++){
+        diffScore += (Math.abs(parseInt(friendList[i].scores[j]) - parseInt(newScores[j])));
       }
 
-      //push results into scoresArray
-      scoresArray.push(scoresDiff);
+      //Push results 
+      scoreArray.push(diffScore);
     }
 
-    //after all friends are compared, find best match
-    for(var i=0; i<scoresArray.length; i++){
-      if(scoresArray[i] <= scoresArray[bestMatch]){
-        bestMatch = i;
+    //Find best match
+    for(var i=0; i<scoreArray.length; i++){
+      if(scoreArray[i] <= scoreArray[friendMatch]){
+        friendMatch = i;
       }
     }
 
-    //return bestMatch data
-    var bestFriend = friendList[bestMatch];
+    //Return data
+    var bestFriend = friendList[friendMatch];
     res.json(bestFriend);
 
-    //pushes new submission into the friendsList array
+    //Pushes new submission 
     friendList.push(req.body);
   });
 };
