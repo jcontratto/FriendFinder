@@ -10,12 +10,12 @@ var PORT = process.env.PORT || 3020;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
-app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
+app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(express.static("public"));
 
 //ROUTER
-require('./app/routing/apiRoutes.js')(app); 
-require('./app/routing/htmlRoutes.js')(app);
+require("./app/routing/apiRoutes.js")(app); 
+require("./app/routing/htmlRoutes.js")(app);
 
 // Starts the server to begin listening
 app.listen(PORT, function () {

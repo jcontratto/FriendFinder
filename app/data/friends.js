@@ -3,12 +3,12 @@
 var friendList = [
   {
 		name: "Rick",
-		photo: "https://",
+		photo: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwiH07e506vdAhXC51MKHSF_Cu4QjRx6BAgBEAU&url=https%3A%2F%2Fwww.pastemagazine.com%2Farticles%2F2017%2F09%2Frick-and-morty-deconstruct-the-clip-show-in-season.html&psig=AOvVaw1vHRInV_nMeQElkCxJBeos&ust=1536500967721527",
 		scores: [5, 1, 4, 5, 5, 1, 2, 1, 1, 1]
 	},
 	{
 		name: "Morty",
-		photo: "https://",
+		photo: "https://imgur.com/gallery/L1lkz/comment/140212896",
 		scores: [4, 5, 1, 2, 2, 4, 3, 2, 5, 3]
 	},
 	{
