@@ -16,6 +16,16 @@ https://friend-finder-hw13.herokuapp.com/
 
 ## **Home Page**
 
-![Screenshot video](https://github.com/jcontratto/bamazon/blob/master/bamazonCustomer.gif)
+![Screenshot video](https://github.com/jcontratto/FriendFinder/blob/master/mainPIC.gif)
+
+* App will start off on the home page and user can click the "survey" button to get to the survey.
+
+## **Survey Page**
+
+![Screenshot video](https://github.com/jcontratto/FriendFinder/blob/master/mainPIC.gif)
+
+* User can also choose 2 other selections:
+    * API Friends List- List of Rick and Morty characters that can be potential friend matches.
+    * Github Repo- Link to my Github repo to look at code. 
 
 
