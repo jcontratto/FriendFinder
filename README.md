@@ -28,6 +28,9 @@ https://friend-finder-hw13.herokuapp.com/
 
 ![Screenshot video](https://github.com/jcontratto/FriendFinder/blob/master/surveyPIC.gif)
 
+* Link to survey page:
+
+    * https://friend-finder-hw13.herokuapp.com/survey
 
 ## **Friend List**
 
