@@ -20,12 +20,29 @@ https://friend-finder-hw13.herokuapp.com/
 
 * App will start off on the home page and user can click the "survey" button to get to the survey.
 
+* User can also choose 2 other selections:
+    * API Friends List- List of Rick and Morty characters that can be potential friend matches.
+    * Github Repo- Link to my Github repo to look at code. 
+
 ## **Survey Page**
 
 ![Screenshot video](https://github.com/jcontratto/FriendFinder/blob/master/surveyPIC.gif)
 
-* User can also choose 2 other selections:
-    * API Friends List- List of Rick and Morty characters that can be potential friend matches.
-    * Github Repo- Link to my Github repo to look at code. 
+
+## **Friend List**
+
+![Screenshot video](https://github.com/jcontratto/FriendFinder/blob/master/friendlist.gif)
+
+* Pre-made friend list to match with user.
+
+## **NPMs and Technologies Used**
+
+* NPM install "express"
+* NPM install "body-parser"
+* NPM install "path"
+    
+* Heruko
+* Node.js
+
 
 
