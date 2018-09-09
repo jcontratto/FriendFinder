@@ -1,51 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <html>
+
 <head>
   <meta charset="UTF-8">
- 
+
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <!--  JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-   
-  <title>Friend Finder</title>
-  <style> 
-  .hero {
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/b/b0/Rick_and_Morty_characters.jpg");
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-}
-.card-panel {
-    height: 600px;
-    transition: box-shadow .25s;
-    padding: 20px;
-    margin: 0.5rem 0 1rem 0;
-    border-radius: 2px;
-    background-color: #26c6da;
-}
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
+  <title>Friend Finder</title>
+
+  <style>
+    .hero {
+      background-image: url("https://upload.wikimedia.org/wikipedia/en/b/b0/Rick_and_Morty_characters.jpg");
+      background-position: bottom center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+    }
+
+    .card-panel {
+      margin-top: 450px;
+      height: 600px;
+      transition: box-shadow .25s;
+      padding: 20px;
+      margin: 0.5rem 0 1rem 0;
+      border-radius: 2px;
+      background-color: #26c6da;
+    }
+
+    .container {
+      font-family: bold, 'Oleo Script', cursive;
+    }
+
+   element.style {
+    margin-top: 430px;
+}
   </style>
 </head>
+
 <body>
   <div class="container">
-    <div class='card-panel col s12 hero'>
+    <div class='card-panel col  s12 hero'>
       <section class='center-align'>
-      <h4>Who's your best match?</h4> 
-      <h5>Find out which character you would be best friends with.</h5><br>
-       
-      <a href="/survey" class="waves-effect waves-light btn cyan lighten-1">Take Survey</a>
+        <h4>
+          <strong>Who's your best match?
+            <strong>
+        </h4>
+        <h5>
+          <strong>Find out which character you would be best friends with.
+            <strong>
+        </h5>
+        <br>
+        <a href="/survey" class="waves-effect waves-light btn cyan lighten-1">Take Survey</a>
       </section>
     </div>
     <div class='col s4'>
-      <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/jcontratto/FriendFinder" target= '_blank'>GitHub Repo</a></p>
+      <p>
+        <a href="/api/friends">API Friends List</a> |
+        <a href="https://github.com/jcontratto/FriendFinder" target='_blank'>GitHub Repo</a>
+      </p>
     </div>
   </div>
-  
+
 </body>
+
 </html>
