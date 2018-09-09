@@ -1,5 +1,5 @@
 //array that holds all the 'friends' that have taken the survey
-//initialize starting with 'dummy' data
+//Pre-submitted 'character friends' data
 var friendList = [
   {
 		name: "Rick",

@@ -22,7 +22,7 @@ https://friend-finder-hw13.herokuapp.com/
 
 ## **Survey Page**
 
-![Screenshot video](https://github.com/jcontratto/FriendFinder/blob/master/mainPIC.gif)
+![Screenshot video](https://github.com/jcontratto/FriendFinder/blob/master/surveyPIC.gif)
 
 * User can also choose 2 other selections:
     * API Friends List- List of Rick and Morty characters that can be potential friend matches.
