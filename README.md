@@ -35,6 +35,10 @@ https://friend-finder-hw13.herokuapp.com/
 
 * Pre-made friend list to match with user.
 
+* Link to API Friends:
+
+    * https://friend-finder-hw13.herokuapp.com/api/friends
+
 ## **NPMs and Technologies Used**
 
 * NPM install "express"
