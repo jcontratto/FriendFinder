@@ -3,7 +3,7 @@
 var friendList = [
   {
 		name: "Rick",
-		photo: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwiH07e506vdAhXC51MKHSF_Cu4QjRx6BAgBEAU&url=https%3A%2F%2Fwww.pastemagazine.com%2Farticles%2F2017%2F09%2Frick-and-morty-deconstruct-the-clip-show-in-season.html&psig=AOvVaw1vHRInV_nMeQElkCxJBeos&ust=1536500967721527",
+		photo: "https://images7.alphacoders.com/633/thumb-1920-633262.png",
 		scores: [5, 1, 4, 5, 5, 1, 2, 1, 1, 1]
 	},
 	{
@@ -13,17 +13,17 @@ var friendList = [
 	},
 	{
 		name: "Jerry",
-		photo: "https://",
+		photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWEO5VThIEZ5NCxxJq17Plxobo51nc5iNUqaUhKy-uq-A-Dx0-gA",
 		scores: [1, 4, 3, 3, 3, 5, 4, 2, 5, 5]
 	},
 	{
 		name: "Summer",
-		photo: "https://",
+		photo: "https://vignette.wikia.nocookie.net/rickandmorty/images/a/ad/Summer_is_cool.jpeg/revision/latest/scale-to-width-down/310?cb=20160919183158",
 		scores: [3, 3, 5, 3, 2, 3, 2, 2, 3, 5]
 	},
 	{
 		name: "Beth",
-		photo: "https://",
+		photo: "https://vignette1.wikia.nocookie.net/rickandmorty/images/f/f9/S1e8_drunk_beth.png/revision/latest?cb=20160917205741",
 		scores: [3, 2, 4, 4, 5, 2, 5, 2, 2, 3]
 	}
   ]
