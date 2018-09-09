@@ -8,7 +8,7 @@ var friendList = [
 	},
 	{
 		name: "Morty",
-		photo: "https://imgur.com/gallery/L1lkz/comment/140212896",
+		photo: "https://i.kym-cdn.com/photos/images/original/000/692/145/49c.png",
 		scores: [4, 5, 1, 2, 2, 4, 3, 2, 5, 3]
 	},
 	{
@@ -18,12 +18,12 @@ var friendList = [
 	},
 	{
 		name: "Summer",
-		photo: "https://vignette.wikia.nocookie.net/rickandmorty/images/a/ad/Summer_is_cool.jpeg/revision/latest/scale-to-width-down/310?cb=20160919183158",
+		photo: "https://vignette.wikia.nocookie.net/rickandmorty/images/a/ad/Summer_is_cool.jpeg",
 		scores: [3, 3, 5, 3, 2, 3, 2, 2, 3, 5]
 	},
 	{
 		name: "Beth",
-		photo: "https://vignette1.wikia.nocookie.net/rickandmorty/images/f/f9/S1e8_drunk_beth.png/revision/latest?cb=20160917205741",
+		photo: "https://vignette1.wikia.nocookie.net/rickandmorty/images/f/f9/S1e8_drunk_beth.png",
 		scores: [3, 2, 4, 4, 5, 2, 5, 2, 2, 3]
 	}
   ]
